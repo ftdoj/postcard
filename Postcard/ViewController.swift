@@ -37,11 +37,13 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         
         nameLabel.hidden = false
+        //updates text property with content from enterNameTextField
         nameLabel.text = enterNameTextField.text
         nameLabel.textColor = UIColor.blueColor()
+        //clears anything inside that shit
         enterNameTextField.text = ""
+        //makes keyboard dissapear
         enterNameTextField.resignFirstResponder()
-        //test comment so i can commit again
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
