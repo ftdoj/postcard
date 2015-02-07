@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         nameLabel.textColor = UIColor.blueColor()
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
-        
+        //test comment so i can commit again
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
